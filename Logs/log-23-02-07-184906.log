@@ -1,0 +1,35 @@
+18:49:09.084  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+18:49:27.713  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+18:49:27.739  INFO  tests.TestBase - The name of starts method is --->addContactSuccessAllFields
+18:49:27.741  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+18:49:32.758  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+18:49:32.760  INFO  manager.ListenerWD - List suze is --> 0
+18:49:32.765  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+18:49:32.802  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+18:49:32.833  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+18:49:32.854  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+18:49:32.931  INFO  manager.ListenerWD - Before find element --> By.name: email
+18:49:32.961  INFO  manager.ListenerWD - After find element --> By.name: email
+18:49:33.131  INFO  manager.ListenerWD - Before find element --> By.name: password
+18:49:33.151  INFO  manager.ListenerWD - After find element --> By.name: password
+18:49:33.293  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='login']
+18:49:33.315  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='login']
+18:49:33.375  INFO  tests.TestBase - Tests start with data : Contact(name=Lisa1971, lastName=Simpson, email=lisa1971@mail.ru, address=NY, phone=11111111971, description=All fields)
+18:49:42.390  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/add']
+18:49:47.445  INFO  manager.ListenerWD - The have a 'problem'
+18:49:47.445  INFO  manager.ListenerWD - ******************
+18:49:47.445  INFO  manager.ListenerWD - Method method ---> findElement
+18:49:47.445  INFO  manager.ListenerWD - ******************
+18:49:47.447  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"a[href='/add']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b308ceab4c5b69bc1e8197c4882f3d1e, findElement {using=css selector, value=a[href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\eduar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57641}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57641/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b308ceab4c5b69bc1e8197c4882f3d1e
+18:49:47.447  INFO  manager.ListenerWD - ******************
+18:49:47.448  INFO  manager.ListenerWD - Object target --->ChromeDriver: chrome on WINDOWS (b308ceab4c5b69bc1e8197c4882f3d1e)
+18:49:47.448  INFO  manager.ListenerWD - ******************
+18:49:47.448  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen-838.png

@@ -1,0 +1,44 @@
+14:38:54.163  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+14:39:07.648  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+14:39:07.672  INFO  tests.TestBase - The name of starts method is --->addContactSuccessAllFields
+14:39:07.673  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+14:39:12.741  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+14:39:12.744  INFO  manager.ListenerWD - List suze is --> 0
+14:39:12.747  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+14:39:12.774  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+14:39:12.804  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+14:39:12.825  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+14:39:12.882  INFO  manager.ListenerWD - Before find element --> By.name: email
+14:39:12.908  INFO  manager.ListenerWD - After find element --> By.name: email
+14:39:13.078  INFO  manager.ListenerWD - Before find element --> By.name: password
+14:39:13.098  INFO  manager.ListenerWD - After find element --> By.name: password
+14:39:13.241  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='login']
+14:39:13.261  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='login']
+14:39:13.322  INFO  tests.TestBase - Tests start with data : Contact(name=Lisa1396, lastName=Simpson, email=lisa1396@mail.ru, address=NY, phone=11111111396, description=All fields)
+14:39:18.323  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/add']
+14:39:20.471  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/add']
+14:39:20.514  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Name']
+14:39:20.537  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Name']
+14:39:20.659  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Last Name']
+14:39:20.682  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Last Name']
+14:39:20.812  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Phone']
+14:39:20.831  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Phone']
+14:39:20.979  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='email']
+14:39:21.000  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='email']
+14:39:21.136  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='Address']
+14:39:21.151  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='Address']
+14:39:21.263  INFO  manager.ListenerWD - Before find element --> By.cssSelector: input[placeholder='description']
+14:39:21.280  INFO  manager.ListenerWD - After find element --> By.cssSelector: input[placeholder='description']
+14:39:21.392  INFO  manager.ListenerWD - Before find element --> By.xpath: //b[text()='Save']
+14:39:21.407  INFO  manager.ListenerWD - After find element --> By.xpath: //b[text()='Save']
+14:39:21.433  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: h2
+14:39:22.086  INFO  manager.ListenerWD - After find elements --> By.cssSelector: h2
+14:39:22.087  INFO  manager.ListenerWD - List suze is --> 1
+14:39:22.102  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: h3
+14:39:22.117  INFO  manager.ListenerWD - After find elements --> By.cssSelector: h3
+14:39:22.117  INFO  manager.ListenerWD - List suze is --> 1
+14:39:22.132  INFO  manager.ListenerWD - Before find elements --> By.cssSelector: .contact-item_card__2SOIM
+14:39:22.148  INFO  manager.ListenerWD - After find elements --> By.cssSelector: .contact-item_card__2SOIM
+14:39:22.148  INFO  manager.ListenerWD - List suze is --> 1
+14:39:22.184  INFO  manager.ListenerWD - Before find element --> By.cssSelector: .contact-item-detailed_card__50dTS
+14:39:22.203  INFO  manager.ListenerWD - After find element --> By.cssSelector: .contact-item-detailed_card__50dTS

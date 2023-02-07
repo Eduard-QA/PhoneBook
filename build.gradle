@@ -25,8 +25,14 @@ test {
 }
 
 task qa36(type :Test){
+
     useTestNG(){
-        suites 'src/test/resources/testng.xml'
+        def groups = System.getProperty('groups')
+        if (groups != null) {
+            includeGroups groups
+        }
+
+        suites 'src/test/resources/testnew.xml'
     }
 }
 

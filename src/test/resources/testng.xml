@@ -10,7 +10,8 @@
         </groups>
 
         <classes>
-            <class name="tests.AddNewContactTests" />
+            <class name="tests.LoginTests" />
+            <class name="tests.AddNewContactTests"/>
             <class name="tests.RegistrationTests"/>
         </classes>
     </test>

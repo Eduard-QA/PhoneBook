@@ -8,28 +8,29 @@ import org.testng.annotations.Test;
 
 import java.util.Random;
 
-public class AddNewContactTests extends TestBase{
+public class AddNewContactTests extends TestBase {
 
     @BeforeMethod(alwaysRun = true)
-    public void preCondition(){
-        if(!app.getHelperUser().isLogged()){
-            app.getHelperUser().login(User.builder().email("noa@gmail.com").password("Nnoa12345$").build());
+    public void preCondition() {
+        if (!app.getHelperUser().isLogged()) {
+            app.getHelperUser().login(User.builder().email("aqa@mail.ru").password("aQa$1234").build());
         }
     }
-    @Test (groups = {"smoke"})
-    public void addContactSuccessAllFields(){
+
+    @Test(groups = {"smoke", "task"})
+    public void addContactSuccessAllFields() {
         Random random = new Random();
-        int i= random.nextInt(1000)+1000;
+        int i = random.nextInt(1000) + 1000;
         Contact contact = Contact.builder()
-                .name("Lisa"+i)
+                .name("Lisa" + i)
                 .lastName("Simpson")
                 .address("NY")
-                .phone("1111111"+i)
-                .email("lisa"+i+"@mail.ru")
+                .phone("1111111" + i)
+                .email("lisa" + i + "@mail.ru")
                 .description("All fields").build();
         System.out.println(contact.toString());
-        logger.info("Tests start with data : " +contact.toString());
-
+        logger.info("Tests start with data : " + contact.toString());
+        app.getHelperUser().pause(15000);
         app.helperContact().openContactForm();
         app.helperContact().fillContactForm(contact);
         app.helperContact().submitContactForm();
@@ -39,19 +40,19 @@ public class AddNewContactTests extends TestBase{
 
 
     }
-    @Test
-    public void addContactSuccessRequiredFields(){
+
+    @Test //(groups = {"smoke"})
+    public void addContactSuccessRequiredFields() {
         Random random = new Random();
-        int i= random.nextInt(1000)+1000;
+        int i = random.nextInt(1000) + 1000;
         Contact contact = Contact.builder()
-                .name("WWWWWW"+i)
+                .name("WWWWWW" + i)
                 .lastName("Simpson")
                 .address("NY")
-                .phone("1111111"+i)
-                .email("marge"+i+"@mail.ru")
+                .phone("1111111" + i)
+                .email("marge" + i + "@mail.ru")
                 .build();
         System.out.println(contact.toString());
-
         app.helperContact().openContactForm();
         app.helperContact().fillContactForm(contact);
         app.helperContact().submitContactForm();
@@ -59,8 +60,9 @@ public class AddNewContactTests extends TestBase{
         Assert.assertTrue(app.helperContact().isContactAddedByPhone(contact.getPhone()));
 
     }
+
     @Test
-    public void  addNewContactWrongName(){
+    public void addNewContactWrongName() {
 
         Contact contact = Contact.builder()
                 .name("")
@@ -77,8 +79,9 @@ public class AddNewContactTests extends TestBase{
         Assert.assertTrue(app.helperContact().isAddPageStillDisplayed());
 
     }
+
     @Test
-    public void  addNewContactWrongAddress(){
+    public void addNewContactWrongAddress() {
 
         Contact contact = Contact.builder()
                 .name("Katty")
@@ -95,8 +98,9 @@ public class AddNewContactTests extends TestBase{
         Assert.assertTrue(app.helperContact().isAddPageStillDisplayed());
 
     }
+
     @Test
-    public void  addNewContactWrongLastName(){
+    public void addNewContactWrongLastName() {
 
         Contact contact = Contact.builder()
                 .name("John")
@@ -113,8 +117,9 @@ public class AddNewContactTests extends TestBase{
         Assert.assertTrue(app.helperContact().isAddPageStillDisplayed());
 
     }
+
     @Test
-    public void  addNewContactWrongPhone(){
+    public void addNewContactWrongPhone() {
 
         Contact contact = Contact.builder()
                 .name("John")
@@ -124,17 +129,19 @@ public class AddNewContactTests extends TestBase{
                 .email("john@mail.ru")
                 .description("wrong Last name").build();
         System.out.println(contact.toString());
-
+app.helperContact().pause(8000);
         app.helperContact().openContactForm();
         app.helperContact().fillContactForm(contact);
         app.helperContact().submitContactForm();
         Assert.assertTrue(app.helperContact().isAddPageStillDisplayed());
+        app.helperContact().pause(5000);
         Assert.assertTrue(app.getHelperUser()
                 .isErrorMessageDisplayed("Phone not valid: Phone number must contain only digits! And length min 10, max 15"));
 
     }
+
     @Test
-    public void  addNewContactWrongEmail(){
+    public void addNewContactWrongEmail() {
 
         Contact contact = Contact.builder()
                 .name("John")

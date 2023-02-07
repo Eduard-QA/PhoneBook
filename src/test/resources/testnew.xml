@@ -4,11 +4,11 @@
 
     <test name="Nopackage" >
         <classes>
-            <class name="tests.LoginTests" />
+            <class name="tests.AddNewContactTests" />
             <class name="tests.RegistrationTests"/>
+            <class name="tests.LoginTests"/>
         </classes>
     </test>
-
 
 
 </suite>

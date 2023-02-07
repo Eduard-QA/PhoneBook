@@ -43,14 +43,8 @@ public class HelperUser extends HelperBase {
     }
 
     public boolean isLogged() {
-//        try {
-//            wd.findElement(By.xpath("//button[text()='Sign Out']")).isDisplayed();
-//            return true;
-//        }catch (Exception e){
-//            return false;
-//        }
+
         List<WebElement> list = wd.findElements(By.xpath("//button[text()='Sign Out']"));
-        // List<WebElement> list  = wd.findElements(By.xpath("//button"));
         return list.size() > 0;
     }
 

@@ -16,7 +16,7 @@ import java.util.List;
 @Listeners(ListenerTNG.class)
 public class LoginTests extends TestBase{
 
-    @BeforeMethod
+    @BeforeMethod (alwaysRun = true)
     public void preCondition(){
         if(app.getHelperUser().isLogged()){
             app.getHelperUser().logout();
@@ -60,16 +60,18 @@ public class LoginTests extends TestBase{
 
 
     }
-    @Test(invocationCount = 2)
+    @Test(groups = {"smoke"})
     public void loginSuccessNew(){
 
         app.getHelperUser().openLoginRegistrationForm();
-        app.getHelperUser().fillLoginRegistrationForm("sonya@gmail.com","Ss12345$");
+        app.getHelperUser().fillLoginRegistrationForm("aqa@mail.ru","aQa$1234");
         app.getHelperUser().submitLogin();
+        app.getHelperUser().pause(9000);
         Assert.assertTrue(app.getHelperUser().isLogged());
 
     }
     @Test (dataProvider ="loginDataUser",dataProviderClass = DataProviderUser.class)
+
     public void loginSuccessModel(User user){
 
         logger.info("Tests start with user model ---" +user.toString());

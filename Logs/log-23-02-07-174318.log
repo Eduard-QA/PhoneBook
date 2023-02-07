@@ -1,0 +1,48 @@
+17:43:20.766  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+17:43:39.931  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+17:43:39.936  INFO  manager.ListenerTNG - onStart ---Nopackage
+17:43:39.991  INFO  tests.TestBase - The name of starts method is --->loginSuccessNew
+17:43:39.994  INFO  manager.ListenerTNG - onTestStart ---loginSuccessNew
+17:43:40.003  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+17:43:40.062  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+17:43:40.116  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+17:43:40.151  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+17:43:40.219  INFO  manager.ListenerWD - Before find element --> By.name: email
+17:43:40.257  INFO  manager.ListenerWD - After find element --> By.name: email
+17:43:40.471  INFO  manager.ListenerWD - Before find element --> By.name: password
+17:43:40.511  INFO  manager.ListenerWD - After find element --> By.name: password
+17:43:40.713  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='login']
+17:43:40.754  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='login']
+17:43:48.813  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+17:43:53.875  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+17:43:53.882  INFO  manager.ListenerWD - List suze is --> 0
+17:43:53.891  INFO  manager.ListenerTNG - onTestFailure ---loginSuccessNew
+17:43:53.900  INFO  tests.TestBase - The name of starts method is --->registrationSuccess
+17:43:53.902  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+17:43:58.953  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+17:43:58.953  INFO  manager.ListenerWD - List suze is --> 0
+17:43:58.954  INFO  manager.ListenerTNG - onTestStart ---registrationSuccess
+17:43:58.961  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+17:43:58.995  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+17:43:59.033  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+17:43:59.070  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+17:43:59.121  INFO  manager.ListenerWD - Before find element --> By.name: email
+17:44:04.207  INFO  manager.ListenerWD - The have a 'problem'
+17:44:04.208  INFO  manager.ListenerWD - ******************
+17:44:04.209  INFO  manager.ListenerWD - Method method ---> findElement
+17:44:04.209  INFO  manager.ListenerWD - ******************
+17:44:04.213  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4c26e79e4cf57a6a85a609f619d18d6e, findElement {using=name, value=email}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\eduar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63477}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63477/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c26e79e4cf57a6a85a609f619d18d6e
+17:44:04.214  INFO  manager.ListenerWD - ******************
+17:44:04.215  INFO  manager.ListenerWD - Object target --->ChromeDriver: chrome on WINDOWS (4c26e79e4cf57a6a85a609f619d18d6e)
+17:44:04.216  INFO  manager.ListenerWD - ******************
+17:44:04.217  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen-793.png
+17:44:04.695  INFO  manager.ListenerTNG - onTestFailure ---registrationSuccess
+17:44:04.698  INFO  manager.ListenerTNG - onFinish ---Nopackage

@@ -10,7 +10,7 @@ import java.util.List;
 
 public class DataProviderUser {
     @DataProvider
-    public Iterator<Object[]> loginDataCls(){
+    public static Iterator<Object[]> loginDataCls(){
 
         List<Object[]> list = new ArrayList<>();
 
@@ -24,7 +24,7 @@ public class DataProviderUser {
 
 
     @DataProvider
-    public Iterator<Object[]> loginDataUser(){
+    public static Iterator<Object[]> loginDataUser(){
         List<Object[]> list = new ArrayList<>();
 
         list.add(new Object[]{User.builder().email("noa@gmail.com").password("Nnoa12345$").build()});
@@ -35,7 +35,7 @@ public class DataProviderUser {
 
     }
     @DataProvider
-    public Iterator<Object[]> loginDataUserFromFile() throws IOException {
+    public static Iterator<Object[]> loginDataUserFromFile() throws IOException {
         List<Object[]> list = new ArrayList<>();
         BufferedReader bufferedReader = new BufferedReader(new FileReader(new File("src/test/resources/data.csv")));
         String  line =bufferedReader.readLine();  // "noa@gmail.com,Nnoa12345$"

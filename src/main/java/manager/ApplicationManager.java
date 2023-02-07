@@ -39,7 +39,7 @@ public class ApplicationManager {
         } else if (browser.equals(Browser.EDGE.browserName())) { // MicrosoftEdge
             wd = new EdgeDriver();
         }
-
+//"C:\\Program Files\\Mozilla Firefox\\firefox.exe"
         WebDriverListener listener=new ListenerWD();
         wd=new EventFiringDecorator<>(listener).decorate(wd);
 
