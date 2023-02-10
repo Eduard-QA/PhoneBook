@@ -53,8 +53,8 @@ public class ApplicationManager {
 
     }
 
-    public void stop() {
-        wd.quit();
+   public void stop() {
+       // wd.quit();
     }
 
     public HelperUser getHelperUser() {

@@ -1,0 +1,151 @@
+18:20:12.918  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+18:20:20.147  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+18:20:20.182  INFO  tests.TestBase - The name of starts method is --->registrationWrongPassword
+18:20:20.184  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+18:20:25.201  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+18:20:25.201  INFO  manager.ListenerWD - List suze is --> 0
+18:20:25.216  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+18:20:25.264  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+18:20:25.295  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+18:20:25.326  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+18:20:25.381  INFO  manager.ListenerWD - Before find element --> By.name: email
+18:20:25.400  INFO  manager.ListenerWD - After find element --> By.name: email
+18:20:25.526  INFO  manager.ListenerWD - Before find element --> By.name: password
+18:20:25.543  INFO  manager.ListenerWD - After find element --> By.name: password
+18:20:25.646  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+18:20:25.658  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+18:20:25.707  INFO  manager.ListenerWD - The have a 'problem'
+18:20:25.708  INFO  manager.ListenerWD - ******************
+18:20:25.708  INFO  manager.ListenerWD - Method method ---> alert
+18:20:25.709  INFO  manager.ListenerWD - ******************
+18:20:25.710  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=110.0.5481.77)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01b40bb2c52ef1a139821d2e6707090f, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\eduar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59965}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59965/devtoo..., se:cdpVersion: 110.0.5481.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 01b40bb2c52ef1a139821d2e6707090f
+18:20:25.711  INFO  manager.ListenerWD - ******************
+18:20:25.712  INFO  manager.ListenerWD - Object target --->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@20a967fe
+18:20:25.712  INFO  manager.ListenerWD - ******************
+18:20:26.245  INFO  manager.ListenerWD - The have a 'problem'
+18:20:26.245  INFO  manager.ListenerWD - ******************
+18:20:26.245  INFO  manager.ListenerWD - Method method ---> alert
+18:20:26.245  INFO  manager.ListenerWD - ******************
+18:20:26.245  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=110.0.5481.77)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01b40bb2c52ef1a139821d2e6707090f, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\eduar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59965}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59965/devtoo..., se:cdpVersion: 110.0.5481.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 01b40bb2c52ef1a139821d2e6707090f
+18:20:26.245  INFO  manager.ListenerWD - ******************
+18:20:26.245  INFO  manager.ListenerWD - Object target --->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@6b6eae52
+18:20:26.245  INFO  manager.ListenerWD - ******************
+18:20:26.763  INFO  manager.ListenerWD - The have a 'problem'
+18:20:26.763  INFO  manager.ListenerWD - ******************
+18:20:26.763  INFO  manager.ListenerWD - Method method ---> alert
+18:20:26.763  INFO  manager.ListenerWD - ******************
+18:20:26.763  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=110.0.5481.77)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01b40bb2c52ef1a139821d2e6707090f, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\eduar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59965}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59965/devtoo..., se:cdpVersion: 110.0.5481.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 01b40bb2c52ef1a139821d2e6707090f
+18:20:26.763  INFO  manager.ListenerWD - ******************
+18:20:26.763  INFO  manager.ListenerWD - Object target --->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@46046c06
+18:20:26.763  INFO  manager.ListenerWD - ******************
+18:20:27.281  INFO  manager.ListenerWD - The have a 'problem'
+18:20:27.281  INFO  manager.ListenerWD - ******************
+18:20:27.281  INFO  manager.ListenerWD - Method method ---> alert
+18:20:27.281  INFO  manager.ListenerWD - ******************
+18:20:27.281  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=110.0.5481.77)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01b40bb2c52ef1a139821d2e6707090f, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\eduar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59965}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59965/devtoo..., se:cdpVersion: 110.0.5481.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 01b40bb2c52ef1a139821d2e6707090f
+18:20:27.281  INFO  manager.ListenerWD - ******************
+18:20:27.281  INFO  manager.ListenerWD - Object target --->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@467233e4
+18:20:27.281  INFO  manager.ListenerWD - ******************
+18:20:27.786  INFO  manager.ListenerWD - The have a 'problem'
+18:20:27.786  INFO  manager.ListenerWD - ******************
+18:20:27.786  INFO  manager.ListenerWD - Method method ---> alert
+18:20:27.786  INFO  manager.ListenerWD - ******************
+18:20:27.786  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=110.0.5481.77)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01b40bb2c52ef1a139821d2e6707090f, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\eduar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59965}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59965/devtoo..., se:cdpVersion: 110.0.5481.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 01b40bb2c52ef1a139821d2e6707090f
+18:20:27.786  INFO  manager.ListenerWD - ******************
+18:20:27.786  INFO  manager.ListenerWD - Object target --->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@1a07bf6
+18:20:27.786  INFO  manager.ListenerWD - ******************
+18:20:28.301  INFO  manager.ListenerWD - The have a 'problem'
+18:20:28.301  INFO  manager.ListenerWD - ******************
+18:20:28.301  INFO  manager.ListenerWD - Method method ---> alert
+18:20:28.301  INFO  manager.ListenerWD - ******************
+18:20:28.301  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=110.0.5481.77)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01b40bb2c52ef1a139821d2e6707090f, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\eduar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59965}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59965/devtoo..., se:cdpVersion: 110.0.5481.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 01b40bb2c52ef1a139821d2e6707090f
+18:20:28.301  INFO  manager.ListenerWD - ******************
+18:20:28.301  INFO  manager.ListenerWD - Object target --->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@60aec68a
+18:20:28.301  INFO  manager.ListenerWD - ******************
+18:20:28.828  INFO  manager.ListenerWD - The have a 'problem'
+18:20:28.828  INFO  manager.ListenerWD - ******************
+18:20:28.828  INFO  manager.ListenerWD - Method method ---> alert
+18:20:28.828  INFO  manager.ListenerWD - ******************
+18:20:28.828  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=110.0.5481.77)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01b40bb2c52ef1a139821d2e6707090f, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\eduar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59965}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59965/devtoo..., se:cdpVersion: 110.0.5481.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 01b40bb2c52ef1a139821d2e6707090f
+18:20:28.828  INFO  manager.ListenerWD - ******************
+18:20:28.828  INFO  manager.ListenerWD - Object target --->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@fe87ddd
+18:20:28.828  INFO  manager.ListenerWD - ******************
+18:20:29.349  INFO  manager.ListenerWD - The have a 'problem'
+18:20:29.349  INFO  manager.ListenerWD - ******************
+18:20:29.349  INFO  manager.ListenerWD - Method method ---> alert
+18:20:29.349  INFO  manager.ListenerWD - ******************
+18:20:29.349  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=110.0.5481.77)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01b40bb2c52ef1a139821d2e6707090f, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\eduar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59965}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59965/devtoo..., se:cdpVersion: 110.0.5481.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 01b40bb2c52ef1a139821d2e6707090f
+18:20:29.349  INFO  manager.ListenerWD - ******************
+18:20:29.349  INFO  manager.ListenerWD - Object target --->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@1727e03a
+18:20:29.349  INFO  manager.ListenerWD - ******************
+18:20:29.883  INFO  manager.ListenerWD - The have a 'problem'
+18:20:29.883  INFO  manager.ListenerWD - ******************
+18:20:29.883  INFO  manager.ListenerWD - Method method ---> alert
+18:20:29.883  INFO  manager.ListenerWD - ******************
+18:20:29.883  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=110.0.5481.77)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01b40bb2c52ef1a139821d2e6707090f, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\eduar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59965}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59965/devtoo..., se:cdpVersion: 110.0.5481.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 01b40bb2c52ef1a139821d2e6707090f
+18:20:29.883  INFO  manager.ListenerWD - ******************
+18:20:29.883  INFO  manager.ListenerWD - Object target --->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@1da4b3f9
+18:20:29.883  INFO  manager.ListenerWD - ******************

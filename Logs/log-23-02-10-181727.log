@@ -1,0 +1,4 @@
+18:17:29.990  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+18:17:48.749  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+18:17:48.749  INFO  manager.ListenerTNG - onStart ---Nopackage
+18:17:48.764  INFO  manager.ListenerTNG - onFinish ---Nopackage

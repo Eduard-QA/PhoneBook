@@ -11,9 +11,7 @@ import org.testng.annotations.BeforeSuite;
 import java.lang.reflect.Method;
 
 public class TestBase {
-    static ApplicationManager app =new ApplicationManager(System.getProperty("browser", Browser.CHROME.browserName())); //chrome
-    // static ApplicationManager app = new ApplicationManager("chrome");
-    // static ApplicationManager app = new ApplicationManager("firefox");
+    static ApplicationManager app =new ApplicationManager(System.getProperty("browser", Browser.CHROME.browserName()));
     Logger logger = LoggerFactory.getLogger(TestBase.class);
 
     @BeforeMethod(alwaysRun = true)
@@ -30,6 +28,6 @@ public class TestBase {
     @AfterSuite(alwaysRun = true)
     public void tearDown(){
 
-        app.stop();
+      //  app.stop();
     }
 }

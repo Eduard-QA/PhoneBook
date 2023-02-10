@@ -88,6 +88,7 @@ public class LoginTests extends TestBase{
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
         app.getHelperUser().submitLogin();
+        app.getHelperUser().pause(2000);
         Assert.assertTrue(app.getHelperUser().isLogged());
 
     }

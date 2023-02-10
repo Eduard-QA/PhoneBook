@@ -1,0 +1,72 @@
+18:05:23.220  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+18:05:36.666  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+18:05:36.699  INFO  tests.TestBase - The name of starts method is --->registrationFromFileSuccess
+18:05:36.701  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+18:05:41.766  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+18:05:41.766  INFO  manager.ListenerWD - List suze is --> 0
+18:05:41.797  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+18:05:41.829  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+18:05:41.860  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+18:05:41.875  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+18:05:42.943  INFO  manager.ListenerWD - Before find element --> By.name: email
+18:05:42.974  INFO  manager.ListenerWD - After find element --> By.name: email
+18:05:43.123  INFO  manager.ListenerWD - Before find element --> By.name: password
+18:05:43.141  INFO  manager.ListenerWD - After find element --> By.name: password
+18:05:43.257  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+18:05:43.275  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+18:05:51.317  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+18:05:56.364  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+18:05:56.364  INFO  manager.ListenerWD - List suze is --> 0
+18:05:56.379  INFO  tests.TestBase - The name of starts method is --->registrationFromFileSuccess
+18:05:56.379  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+18:06:01.275  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+18:06:01.275  INFO  manager.ListenerWD - List suze is --> 0
+18:06:01.275  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+18:06:01.290  INFO  manager.ListenerWD - The have a 'problem'
+18:06:01.290  INFO  manager.ListenerWD - ******************
+18:06:01.290  INFO  manager.ListenerWD - Method method ---> findElement
+18:06:01.290  INFO  manager.ListenerWD - ******************
+18:06:01.290  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=110.0.5481.77): User already exist
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [23d66603405b46b11c24851eda4600fa, findElement {using=css selector, value=a[href='/login']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\eduar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59443/devtoo..., se:cdpVersion: 110.0.5481.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 23d66603405b46b11c24851eda4600fa
+18:06:01.290  INFO  manager.ListenerWD - ******************
+18:06:01.290  INFO  manager.ListenerWD - Object target --->ChromeDriver: chrome on WINDOWS (23d66603405b46b11c24851eda4600fa)
+18:06:01.290  INFO  manager.ListenerWD - ******************
+18:06:01.290  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen-537.png
+18:06:01.717  INFO  tests.TestBase - The name of starts method is --->registrationFromFileSuccess
+18:06:01.717  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+18:06:06.775  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+18:06:06.775  INFO  manager.ListenerWD - List suze is --> 0
+18:06:06.775  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+18:06:06.806  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+18:06:06.838  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+18:06:06.854  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+18:06:07.912  INFO  manager.ListenerWD - Before find element --> By.name: email
+18:06:07.943  INFO  manager.ListenerWD - After find element --> By.name: email
+18:06:08.074  INFO  manager.ListenerWD - Before find element --> By.name: password
+18:06:08.090  INFO  manager.ListenerWD - After find element --> By.name: password
+18:06:08.217  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+18:06:08.218  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+18:06:16.268  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+18:06:16.270  INFO  manager.ListenerWD - The have a 'problem'
+18:06:16.270  INFO  manager.ListenerWD - ******************
+18:06:16.270  INFO  manager.ListenerWD - Method method ---> findElements
+18:06:16.270  INFO  manager.ListenerWD - ******************
+18:06:16.270  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.77)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [23d66603405b46b11c24851eda4600fa, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\eduar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59443/devtoo..., se:cdpVersion: 110.0.5481.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 23d66603405b46b11c24851eda4600fa
+18:06:16.270  INFO  manager.ListenerWD - ******************
+18:06:16.270  INFO  manager.ListenerWD - Object target --->ChromeDriver: chrome on WINDOWS (23d66603405b46b11c24851eda4600fa)
+18:06:16.270  INFO  manager.ListenerWD - ******************
+18:06:16.270  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen-524.png

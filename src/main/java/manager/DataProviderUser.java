@@ -37,15 +37,28 @@ public class DataProviderUser {
     @DataProvider
     public static Iterator<Object[]> loginDataUserFromFile() throws IOException {
         List<Object[]> list = new ArrayList<>();
-        BufferedReader bufferedReader = new BufferedReader(new FileReader(new File("src/test/resources/data.csv")));
-        String  line =bufferedReader.readLine();  // "noa@gmail.com,Nnoa12345$"
+        BufferedReader bufferedReader = new BufferedReader(new FileReader(new File("src/test/resources/Data base - phoneBook.csv")));
+        String  line =bufferedReader.readLine();
         while(line!=null){
-            String[] split = line.split(","); // [0] "noa@gmail.com" [1] "Nnoa12345$"
+            String[] split = line.split(",");
             list.add(new Object[]{User.builder().email(split[0]).password(split[1]).build()});
-            line =bufferedReader.readLine(); /// "sonya@gmail.com,Ss12345$"
+            line =bufferedReader.readLine();
         }
 
         return list.iterator();
+    }
+    @DataProvider
+    public static Iterator<Object[]> RegistrDataFromFile() throws IOException {
+        List<Object[]> list = new ArrayList<>();
+        BufferedReader bufferedReader = new BufferedReader(new FileReader(new File("src/test/resources/Data base - phoneBook.csv")));
+        String  line =bufferedReader.readLine();
+        while(line!=null){
+            String[] split = line.split(",");
+            list.add(new Object[]{User.builder().email(split[0]).password(split[1]).build()});
+            line =bufferedReader.readLine();}
+        System.out.println(list);
+        return list.iterator();
+
     }
 
 }

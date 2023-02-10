@@ -49,16 +49,12 @@ public class HelperUser extends HelperBase {
     }
 
     public void logout() {
-        // click(By.xpath("//button"));
         click(By.xpath("//button[text()='Sign Out']"));
     }
 
     public boolean isErrorMessageDisplayed(String message) {
-        // Alert alert = wd.switchTo().alert();
-
-        Alert alert = new WebDriverWait(wd, Duration.ofSeconds(4))
+        Alert alert = new WebDriverWait(wd, Duration.ofSeconds(10))
                 .until(ExpectedConditions.alertIsPresent());
-
 
         String text = alert.getText();
         System.out.println("isErrorMessageDisplayed + " + text + " \nMessage: " + message);
@@ -71,11 +67,8 @@ public class HelperUser extends HelperBase {
         String text = alert.getText();
         System.out.println(text);
 
-        // click ok
+
         alert.accept();
-        //click cancel
-        //alert.dismiss();
-        //alert.sendKeys("Hello");
         return text.contains(message);
     }
 
